@@ -22,7 +22,7 @@ jobs:
         run: npm run build
 
       - name: Upload static HTML files
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: static-html
           path: build/  # Adjust this path based on your build output directory
